@@ -1,0 +1,5 @@
+2025-03-23 20:38:27.563 | INFO     | __main__:main:41 - Starting data preparation...
+2025-03-23 20:38:27.563 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\customers_data.csv.
+2025-03-23 20:38:27.572 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\products_data.csv.
+2025-03-23 20:38:27.575 | INFO     | __main__:read_raw_data:26 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\sales_data.csv.
+2025-03-23 20:38:27.579 | INFO     | __main__:main:45 - Data preparation complete.
