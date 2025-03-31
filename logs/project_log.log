@@ -149,3 +149,35 @@ dtype: int64
 2025-03-27 21:54:39.413 | INFO     | __main__:main:264 - ==================================
 2025-03-27 21:54:39.413 | INFO     | __main__:main:265 - FINISHED prepare_sales_data.py
 2025-03-27 21:54:39.413 | INFO     | __main__:main:266 - ==================================
+2025-03-30 21:05:06.823 | INFO     | __main__:main:61 - Starting data preparation...
+2025-03-30 21:05:06.823 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\customers_data.csv.
+2025-03-30 21:05:06.835 | INFO     | __main__:process_data:54 - Cleaned data saved to C:\Projects\smart-store-pinkston\data\prepared\customers_data.csv
+2025-03-30 21:05:06.835 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\products_data.csv.
+2025-03-30 21:05:06.844 | INFO     | __main__:process_data:54 - Cleaned data saved to C:\Projects\smart-store-pinkston\data\prepared\products_data.csv
+2025-03-30 21:05:06.844 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\sales_data.csv.
+2025-03-30 21:05:06.854 | INFO     | __main__:process_data:54 - Cleaned data saved to C:\Projects\smart-store-pinkston\data\prepared\sales_data.csv
+2025-03-30 21:05:06.854 | INFO     | __main__:main:68 - Data preparation complete.
+2025-03-30 21:08:58.353 | INFO     | __main__:main:61 - Starting data preparation...
+2025-03-30 21:08:58.354 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\customers_data.csv.
+2025-03-30 21:08:58.361 | INFO     | __main__:process_data:54 - Cleaned data saved to C:\Projects\smart-store-pinkston\data\prepared\customers_data.csv
+2025-03-30 21:08:58.361 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\products_data.csv.
+2025-03-30 21:08:58.367 | INFO     | __main__:process_data:54 - Cleaned data saved to C:\Projects\smart-store-pinkston\data\prepared\products_data.csv
+2025-03-30 21:08:58.368 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\sales_data.csv.
+2025-03-30 21:08:58.374 | INFO     | __main__:process_data:54 - Cleaned data saved to C:\Projects\smart-store-pinkston\data\prepared\sales_data.csv
+2025-03-30 21:08:58.374 | INFO     | __main__:main:68 - Data preparation complete.
+2025-03-30 21:09:33.707 | INFO     | __main__:main:61 - Starting data preparation...
+2025-03-30 21:09:33.708 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\customers_data.csv.
+2025-03-30 21:09:33.714 | INFO     | __main__:process_data:54 - Cleaned data saved to C:\Projects\smart-store-pinkston\data\prepared\customers_data.csv
+2025-03-30 21:09:33.714 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\products_data.csv.
+2025-03-30 21:09:33.720 | INFO     | __main__:process_data:54 - Cleaned data saved to C:\Projects\smart-store-pinkston\data\prepared\products_data.csv
+2025-03-30 21:09:33.721 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\sales_data.csv.
+2025-03-30 21:09:33.727 | INFO     | __main__:process_data:54 - Cleaned data saved to C:\Projects\smart-store-pinkston\data\prepared\sales_data.csv
+2025-03-30 21:09:33.728 | INFO     | __main__:main:68 - Data preparation complete.
+2025-03-30 21:09:58.622 | INFO     | __main__:main:61 - Starting data preparation...
+2025-03-30 21:09:58.623 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\customers_data.csv.
+2025-03-30 21:09:58.630 | INFO     | __main__:process_data:54 - Cleaned data saved to C:\Projects\smart-store-pinkston\data\prepared\customers_data.csv
+2025-03-30 21:09:58.630 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\products_data.csv.
+2025-03-30 21:09:58.636 | INFO     | __main__:process_data:54 - Cleaned data saved to C:\Projects\smart-store-pinkston\data\prepared\products_data.csv
+2025-03-30 21:09:58.636 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\sales_data.csv.
+2025-03-30 21:09:58.643 | INFO     | __main__:process_data:54 - Cleaned data saved to C:\Projects\smart-store-pinkston\data\prepared\sales_data.csv
+2025-03-30 21:09:58.643 | INFO     | __main__:main:68 - Data preparation complete.

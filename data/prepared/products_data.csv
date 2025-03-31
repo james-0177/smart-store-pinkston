@@ -1,0 +1,9 @@
+ProductID,ProductName,Category,UnitPrice,StockQuantity,Brand
+101,laptop,Electronics,793.12,6,Asus
+102,hoodie,Clothing,39.1,12,UnderArmour
+103,cable,Electronics,22.76,8,Anker
+104,hat,Clothing,43.1,9,Adidas
+105,football,Sports,19.78,4,Rawlings
+106,controller,Electronics,88.98,22,Sony
+107,jacket,Clothing,67.02,16,NorthFace
+108,protector,Electronics,12.56,6,GE

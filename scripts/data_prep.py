@@ -14,10 +14,12 @@ if str(PROJECT_ROOT) not in sys.path:
 
 # Now we can import local modules
 from utils.logger import logger
+from scripts.data_scrubber import DataScrubber
 
 # Constants
 DATA_DIR: pathlib.Path = PROJECT_ROOT.joinpath("data")
 RAW_DATA_DIR: pathlib.Path = DATA_DIR.joinpath("raw")
+PREPARED_DATA_DIR: pathlib.Path = DATA_DIR.joinpath("prepared")
 
 def read_raw_data(file_name: str) -> pd.DataFrame:
     """Read raw data from CSV."""
@@ -35,13 +37,34 @@ def read_raw_data(file_name: str) -> pd.DataFrame:
 def process_data(file_name: str) -> None:
     """Process raw data by reading it into a pandas DataFrame object."""
     df = read_raw_data(file_name)
+    if df.empty:
+        logger.warning(f"No data to process for {file_name}. Skipping.")
+        return
+    
+    try:
+        scrubber = DataScrubber(df)
+
+        #Clean data: remove duplicates and handle missing values (drop rows with missing data)
+        scrubber.remove_duplicate_records()
+        scrubber.handle_missing_data(drop=True)
+
+        #Save the cleaned data to the prepared directory
+        cleaned_file_path = PREPARED_DATA_DIR.joinpath(file_name)
+        scrubber.df.to_csv(cleaned_file_path, index=False)
+        logger.info(f"Cleaned data saved to {cleaned_file_path}")
+
+    except Exception as e:
+        logger.error(f"Error processing {file_name}: {e}")
 
 def main() -> None:
     """Main function for processing customer, product, and sales data."""
     logger.info("Starting data preparation...")
+
+    #Process the raw data files
     process_data("customers_data.csv")
     process_data("products_data.csv")
     process_data("sales_data.csv")
+
     logger.info("Data preparation complete.")
 
 if __name__ == "__main__":
