@@ -181,3 +181,27 @@ dtype: int64
 2025-03-30 21:09:58.636 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\sales_data.csv.
 2025-03-30 21:09:58.643 | INFO     | __main__:process_data:54 - Cleaned data saved to C:\Projects\smart-store-pinkston\data\prepared\sales_data.csv
 2025-03-30 21:09:58.643 | INFO     | __main__:main:68 - Data preparation complete.
+2025-03-31 22:10:28.866 | INFO     | __main__:main:62 - Starting data preparation...
+2025-03-31 22:10:28.867 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\customers_data.csv.
+2025-03-31 22:10:28.880 | ERROR    | __main__:process_data:58 - Error processing customers_data.csv: 'str' object has no attribute 'name'
+2025-03-31 22:10:28.881 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\products_data.csv.
+2025-03-31 22:10:28.885 | ERROR    | __main__:process_data:58 - Error processing products_data.csv: 'str' object has no attribute 'name'
+2025-03-31 22:10:28.885 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\sales_data.csv.
+2025-03-31 22:10:28.888 | ERROR    | __main__:process_data:58 - Error processing sales_data.csv: 'str' object has no attribute 'name'
+2025-03-31 22:10:28.889 | INFO     | __main__:main:69 - Data preparation complete.
+2025-03-31 22:14:40.698 | INFO     | __main__:main:63 - Starting data preparation...
+2025-03-31 22:14:40.699 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\customers_data.csv.
+2025-03-31 22:14:40.703 | ERROR    | __main__:process_data:59 - Error processing customers_data.csv: 'str' object has no attribute 'name'
+2025-03-31 22:14:40.704 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\products_data.csv.
+2025-03-31 22:14:40.706 | ERROR    | __main__:process_data:59 - Error processing products_data.csv: 'str' object has no attribute 'name'
+2025-03-31 22:14:40.707 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\sales_data.csv.
+2025-03-31 22:14:40.709 | ERROR    | __main__:process_data:59 - Error processing sales_data.csv: 'str' object has no attribute 'name'
+2025-03-31 22:14:40.710 | INFO     | __main__:main:70 - Data preparation complete.
+2025-03-31 22:16:27.669 | INFO     | __main__:main:63 - Starting data preparation...
+2025-03-31 22:16:27.669 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\customers_data.csv.
+2025-03-31 22:16:27.683 | INFO     | __main__:process_data:56 - Cleaned data saved to C:\Projects\smart-store-pinkston\data\prepared\customers_data_prepared.csv
+2025-03-31 22:16:27.683 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\products_data.csv.
+2025-03-31 22:16:27.689 | INFO     | __main__:process_data:56 - Cleaned data saved to C:\Projects\smart-store-pinkston\data\prepared\products_data_prepared.csv
+2025-03-31 22:16:27.689 | INFO     | __main__:read_raw_data:28 - Reading raw data from C:\Projects\smart-store-pinkston\data\raw\sales_data.csv.
+2025-03-31 22:16:27.696 | INFO     | __main__:process_data:56 - Cleaned data saved to C:\Projects\smart-store-pinkston\data\prepared\sales_data_prepared.csv
+2025-03-31 22:16:27.696 | INFO     | __main__:main:70 - Data preparation complete.

@@ -49,7 +49,9 @@ def process_data(file_name: str) -> None:
         scrubber.handle_missing_data(drop=True)
 
         #Save the cleaned data to the prepared directory
-        cleaned_file_path = PREPARED_DATA_DIR.joinpath(file_name)
+        file_name_path = pathlib.Path(file_name)
+        prepared_file_name = file_name_path.stem + ("_prepared.csv")
+        cleaned_file_path = PREPARED_DATA_DIR.joinpath(prepared_file_name)
         scrubber.df.to_csv(cleaned_file_path, index=False)
         logger.info(f"Cleaned data saved to {cleaned_file_path}")
 
