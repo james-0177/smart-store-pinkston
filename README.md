@@ -17,3 +17,15 @@ py -m pip install --upgrade -r requirements.txt
 ```shell
 py scripts\data_prep.py
 ```
+
+#### Step 4 - Prepare and clean data
+```shell
+py scripts\data_preparation\prepare_customers_data.py
+py scripts\data_preparation\prepare_products_data.py
+py scripts\data_preparation\prepare_sales_data.py
+```
+
+#### Ste 5 - Create data warehouse and database tables
+```shell
+py scripts\etl_to_dw.py
+```
