@@ -25,7 +25,11 @@ py scripts\data_preparation\prepare_products_data.py
 py scripts\data_preparation\prepare_sales_data.py
 ```
 
-#### Ste 5 - Create data warehouse and database tables
+#### Step 5 - Create data warehouse and database tables
+    The data warehouse will use a star schema consisting of two dimension tables (customer and product) and one fact table (sale).
+
+    ![img](<images/Screenshot 2025-04-06 213349.png>)
+
 ```shell
 py scripts\etl_to_dw.py
 ```
