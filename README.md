@@ -46,3 +46,35 @@ py scripts\etl_to_dw.py
 ![alt text](chart2.png)
 
 ![alt text](chart3.png)
+
+#### Step 7 - BI Insights and Storytelling
+##### Use OLAP Analysis and visualizations to identify business insights
+###### Section 1. The Business Goal - Identify low-performing products by analyzing total sales and sales trends over time by product category and region. The results can be used to determine which products need to be discontinued or another strategy implemented.
+
+###### Section 2. Data Source - Start with a pre-computed cube in Microsoft Power BI. The following tables and columns will be used:
+* Table - sale, Columns - SaleDate, SalesAmount
+* Table - product, Columns - Category, ProductName
+* Table - customer, Columns - Region
+
+###### Section 3. Tools - SQLite and Microsoft Power BI will be used for this analysis. The data warehouse was previously created in SQLite and was previously connected to Power BI. Power BI supports SQL queries and the creation of visualizations.
+
+###### Section 4. Workflow & Logic
+* Dimensions - SaleDate, Category, ProductName, Region
+* Metric - SalesAmount
+* Aggregations - Sum of SalesAmount
+
+![alt text](total_sales_by_date.png)
+
+![alt text](total_sales_by_date_product.png)
+
+###### Section 5. Results - The OLAP analysis using SQL and Power BI successfully determined which product to discontinue due to poor sales performance. The following visuals help provide these insights.
+
+![alt text](sum_total_sales_category.png)
+
+![alt text](sum_total_sales_month.png)
+
+![alt text](sum_total_sales_product.png)
+
+###### Section 6. Suggested Business Action - Based on the analysis, it is recommended to remove footballs for the sales inventory.
+
+###### Section 7. Challenges - I did not encounter any challenges.
