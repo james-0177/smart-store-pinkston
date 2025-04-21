@@ -49,7 +49,7 @@ py scripts\etl_to_dw.py
 
 #### Step 7 - BI Insights and Storytelling
 ##### Use OLAP Analysis and visualizations to identify business insights
-###### Section 1. The Business Goal - Identify low-performing products by analyzing total sales and sales trends over time by product category and region. The results can be used to determine which products need to be discontinued or another strategy implemented.
+###### Section 1. The Business Goal - Identify low-performing products by analyzing total sales of less than $1,000 and sales trends over time by product category and region. The results can be used to determine which products need to be discontinued or another strategy implemented.
 
 ###### Section 2. Data Source - Start with a pre-computed cube in Microsoft Power BI. The following tables and columns will be used:
 * Table - sale, Columns - SaleDate, SalesAmount
@@ -75,6 +75,6 @@ py scripts\etl_to_dw.py
 
 ![alt text](sum_total_sales_product.png)
 
-###### Section 6. Suggested Business Action - Based on the analysis, it is recommended to remove footballs for the sales inventory.
+###### Section 6. Suggested Business Action - Based on the analysis, it is recommended to remove cable, footballs, and protectors for the sales inventory.
 
 ###### Section 7. Challenges - I did not encounter any challenges.
