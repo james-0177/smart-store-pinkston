@@ -75,6 +75,6 @@ py scripts\etl_to_dw.py
 
 ![alt text](sum_total_sales_product.png)
 
-###### Section 6. Suggested Business Action - Based on the analysis, it is recommended to remove cable, footballs, and protectors for the sales inventory.
+###### Section 6. Suggested Business Action - Based on the analysis, it is recommended to remove cable, footballs, and protectors from the sales inventory.
 
 ###### Section 7. Challenges - I did not encounter any challenges.
