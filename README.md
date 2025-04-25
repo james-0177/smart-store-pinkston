@@ -78,3 +78,38 @@ py scripts\etl_to_dw.py
 ###### Section 6. Suggested Business Action - Based on the analysis, it is recommended to remove cable, footballs, and protectors from the sales inventory.
 
 ###### Section 7. Challenges - I did not encounter any challenges.
+
+#### Step 8 - Custom BI Project
+##### Use OLAP Analysis and visualizations to identify business insights
+###### Section 1. The Business Goal - Identify top-selling products by region and season so that promotions can be tailored by region and season.
+
+###### Section 2. Data Source
+* Table - sale, Columns - SaleDate, Quarter, ProductID, CustomerID
+* Table - product, Columns - ProductName
+* Table - customer, Columns - Region
+
+###### Section 3. Tools - SQLite and Microsoft Power BI will be used for this analysis. The data warehouse was previously created in SQLite and was previously connected to Power BI. Power BI supports SQL queries and the creation of visualizations.
+
+###### Section 4. Workflow & Logic
+* Dimensions - Season (created from Quarter), Region
+* Metric - ProductID
+* Aggregations - Count of ProductID
+
+![alt text](total_sales_by_region_season.png)
+
+###### Section 5. Results - The OLAP analysis using SQL and Power BI successfully determined which products are top-sellers by Season and by Region. The following visual help provide these insights.
+
+![alt text](sales_matrix.png)
+
+![alt text](sales_matrix_region.png)
+
+![alt text](sales_matrix_season.png)
+
+###### Section 6. Suggested Business Action - Based on the analysis, it is recommended to focus on promoting Laptops during Spring and Winter in all Regions.
+
+###### Section 7. Challenges - I encountered a big challenge with trying to create a slicer in Power BI setting a threshold. After several hours, web searches, and the use of ChatGPT, I was completely unsuccessful and gave up.
+
+###### Section 8. I believe the data is being used responsibly to proper analyze sales in order to improve sales of the most popular products.
+
+
+
